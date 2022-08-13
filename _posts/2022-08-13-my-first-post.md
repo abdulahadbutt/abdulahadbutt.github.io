@@ -2,6 +2,7 @@
 layout: post
 title:  "my first post yes"
 date:   2022-08-13 18:16:52 +0500
+author: Abdul Ahad Butt
 categories: jekyll update
 ---
 
