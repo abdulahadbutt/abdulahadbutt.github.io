@@ -186,17 +186,49 @@
   background-color: #fff;
   color: #4a4a4a;
   box-shadow: 4px 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1);
+  padding: 30px;
+
+
   h3 a {
     color: #3273dc;
     font-weight: bold;
   }
+  .card-metadata{
+
+    display: flex;
+    // justify-content: flex-start;
+
+    .card-date{
+      margin-right: 10px;
+    }
+    .tags{
+
+      display: flex;
+      justify-content: flex-end;
+      
+      
+      .card-tags{
+        border-radius: 12px;
+        border: solid #707070 1px;
+        width: min-content;
+        padding: 0px 0.80em;
+        margin-right: 11px;
+      }
+    }
+  }
+
+  .card-desc{
+    margin-top: 10px;
+    color: #4a4a4a
+  }
+
 }
 
-.card-metadata {
-  display: flex;
-  justify-content: flex-start;
-  justify-content: space-around;
-}
+// .card-metadata {
+  // display: flex;
+  // justify-content: flex-start;
+  // justify-content: space-around;
+// }
 
 .page-heading {
   @include relative-font-size(2);
