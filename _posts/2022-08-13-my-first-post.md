@@ -1,15 +1,27 @@
 ---
 layout: post
-title:  "my first post yes"
+title:  "My First Article"
 date:   2022-08-13 18:16:52 +0500
 author: Abdul Ahad Butt
-categories: jekyll update
+tags: Introduction,Python
+desc: My first ever article on this blog
+# categories: jekyll update
 ---
 
 ## Welcome to My First Post
-Here are the things I'll be writing about:
+I'll mostly just use this post to see what kind of stuff I can add in this site.
 
-1. This
-2. That
-3. Everything else
-4. Please work
+
+You can use backticks to emphasize words, like `this` 
+
+Jekyll also offers powerful support for code snippets, some of which I will show off here:
+{% highlight python %}
+import pandas as pd 
+# Pandas is a module
+
+df = pd.read_csv('path/to/csv/file')
+print(df.head())
+{% endhighlight %}
+
+
+If you're an employer, please take a look at my **[resume](/resume/)**
