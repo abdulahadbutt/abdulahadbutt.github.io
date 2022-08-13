@@ -7,6 +7,9 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 #     bundle exec jekyll serve --livereload
 #
+# Run the following line for development
+#     bundle exec jekyll serve --force_polling --livereload
+#
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "~> 3.9.2"
