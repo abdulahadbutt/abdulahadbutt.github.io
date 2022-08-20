@@ -197,6 +197,7 @@
 
     display: flex;
     // justify-content: flex-start;
+    align-items: center;
 
     .card-date{
       margin-right: 10px;
@@ -208,6 +209,9 @@
       
       
       .card-tags{
+        display: flex;
+        align-items: center;
+        
         border-radius: 12px;
         border: solid #707070 1px;
         width: min-content;
