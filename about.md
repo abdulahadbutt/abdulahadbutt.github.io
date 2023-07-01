@@ -3,16 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+# Hi
+My name is Abdul Ahad Butt, and I'm an ML engineer. This blog is sort of a collection of things I learn in my professional life (mostly).
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can see my LinkedIn profile [here](https://www.linkedin.com/in/abdul-ahad-butt-b99b18237/), and my github account [here](https://github.com/abdulahadbutt).
 
 
-[jekyll-organization]: https://github.com/jekyll
+Hoping to update this section soon!
+
+

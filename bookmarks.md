@@ -19,3 +19,7 @@ Stuff I find useful for my day to day or just plain cool.
 
 # Misc
 - [Configuring SSH Keys](https://code.visualstudio.com/docs/remote/troubleshooting)
+
+
+# Fun Reads
+- [Why you should care about data and concept drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb)
