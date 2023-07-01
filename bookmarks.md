@@ -19,3 +19,8 @@ Stuff I find useful for my day to day or just plain cool.
 
 # Misc
 - [Configuring SSH Keys](https://code.visualstudio.com/docs/remote/troubleshooting)
+
+
+# Fun Reads
+- [Why you should care about data and concept drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb)
+- [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
