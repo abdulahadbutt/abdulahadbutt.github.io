@@ -24,3 +24,6 @@ Stuff I find useful for my day to day or just plain cool.
 # Fun Reads
 - [Why you should care about data and concept drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb)
 - [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
+- [Establishing a baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/)
+- [Error Analysis](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/responsible-machine-learning-with-error-analysis/ba-p/2141774)
+- [Experiment Tracking](https://neptune.ai/blog/ml-experiment-tracking)
