@@ -9,7 +9,7 @@ desc: Use ssh-keygen to connect to your remote device without having to input yo
 
 
 # What is ssh?
-ssh stands for secure socket layer. 
+ssh stands for secure socket layer. It's basically a way for you to access remote servers in a convenient and safe way. 
 
 # Steps to copy ssh public key to remote server
 1. First if you do not have a key, run the following command in a local terminal / Powershell to generate an SSH key pair:
@@ -32,9 +32,7 @@ ssh stands for secure socket layer.
     $USER_AT_HOST="your-user-name-on-host@hostname"
     $PUBKEYPATH="$HOME\.ssh\id_ed25519.pub
 
-    $pubKey=(Get-Content "$PUBKEYPATH" | Out-String); ssh "$USER_AT_HOST" 
-    "mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo '${pubKey}' >> ~/.ssh/
-    authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+    $pubKey=(Get-Content "$PUBKEYPATH" | Out-String); ssh "$USER_AT_HOST" "mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo '${pubKey}' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
     ```
 3. Go your .ssh file location and change the SSH config file like so:
 
@@ -44,3 +42,5 @@ ssh stands for secure socket layer.
         HostName host-fqdn-or-ip-goes-here
         IdentityFile ~/.ssh/id_ed25519-remote-ssh
     ```
+
+If you want more information on using SSH keys, I highly recommend [this webpage](https://code.visualstudio.com/docs/remote/troubleshooting)

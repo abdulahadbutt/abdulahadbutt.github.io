@@ -15,9 +15,17 @@ pip install -U selenium
 pip install webdriver-manager
 pip install beautifulsoup4
 ```
+### You might be asking what are these modules?
+Here's the run down. 
 
+__selenium__ basically helps us automate browsers! It opens up a browser on your device your python script can interact with. 
+
+__webdriver-manager__ is a wrapper module for selenium. How it works is, selenium needs a "driver" to interface with a chosen browser. Selenium docs has links to where you can download these drivers, however webdriver-manager circumvents this problem by automating the downloading and saving of webdrivers
+
+And finally __beatifulsoup4__ is our chosen html parser. 
 
 ## Next create a new file main.py
+You can do this manually or by running the below command (only for linux)
 ```powershell
 touch main.py
 ```
