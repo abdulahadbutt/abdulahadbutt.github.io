@@ -1,16 +1,16 @@
 ---
-layout: post
 title:  "My First Article"
 date:   2022-08-13 18:16:52 +0500
-author: Abdul Ahad Butt
-tags: Introduction,Python
-desc: My first ever article on this blog
+tags: 
+    - Introduction
+    - Python
+# desc: My first ever article on this blog
 # categories: jekyll update
 ---
 
 ## Welcome to My First Post
 I'll mostly just use this post to see what kind of stuff I can add in this site.
-
+<!--more-->
 
 You can use backticks to emphasize words, like `this` 
 

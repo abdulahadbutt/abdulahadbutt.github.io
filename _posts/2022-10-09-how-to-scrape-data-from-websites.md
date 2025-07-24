@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  How do you scrape data from a website using python?
 date:   2022-10-09 18:16:52 +0500
 author: Abdul Ahad Butt
-tags: selenium,BeautifulSoup
+tags: 
+    - selenium
+    - BeautifulSoup
 # desc: 
 ---
 
@@ -15,6 +16,7 @@ pip install -U selenium
 pip install webdriver-manager
 pip install beautifulsoup4
 ```
+<!--more-->
 ### You might be asking what are these modules?
 Here's the run down. 
 

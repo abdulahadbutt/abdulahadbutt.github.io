@@ -1,16 +1,15 @@
 ---
-layout: post
 title:  "Add ssh keys"
 date:   2022-08-18 18:16:52 +0500
-author: Abdul Ahad Butt
-tags: ssh
+tags: 
+- ssh
 desc: Use ssh-keygen to connect to your remote device without having to input your password everytime
 ---
 
 
 # What is ssh?
 ssh stands for secure socket layer. It's basically a way for you to access remote servers in a convenient and safe way. 
-
+<!--more-->
 # Steps to copy ssh public key to remote server
 1. First if you do not have a key, run the following command in a local terminal / Powershell to generate an SSH key pair:
 
