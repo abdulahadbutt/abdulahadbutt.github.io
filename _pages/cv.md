@@ -25,9 +25,9 @@ redirect_from:
 ### Computer Vision Intern
 **VisionLabs**, Remote
 *Jun 2024 - Jul 2024*
-- Worked with creating model related to DeepFakeDetection of Human Faces
-- Worked on implementing LoRA adapters
-- Worked on implementing LoRA-X
+* Implemented LoRA-X to enhance Tiny-Vit models, enabling the learning of new attacks while preserving knowledge from previous models.
+* Trained deepfake detection models using Veo3 and KlingAI datasets.
+
 
 ### Data Scientist  
 **Softtech Solutions**, Islamabad, Pakistan  
@@ -92,7 +92,8 @@ redirect_from:
 
 ## Skills
 
-- **Machine Learning Stack:** PyTorch, TensorFlow, Keras, Scikit-learn, TensorBoard, TorchServe, TFX, HuggingFace  
+- **Machine Learning Stack:** PyTorch Lightning, Hydra, PyTorch,  Scikit-learn, TensorBoard, TorchServe, TFX, HuggingFace  
+<!-- TensorFlow, Keras, -->
 - **Python Stack:** NumPy, Pandas, Matplotlib, Selenium, OpenCV, TensorBoard, Flask, Django  
 - **Database Stack:** MySQL, PostgreSQL, DBeaver  
 - **Version Control:** Git, DVC  
