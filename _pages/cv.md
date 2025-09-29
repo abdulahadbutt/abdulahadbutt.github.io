@@ -26,7 +26,7 @@ redirect_from:
 **VisionLabs**, Remote
 *Jun 2024 - Jul 2024*
 * Implemented LoRA-X to enhance Tiny-Vit models, enabling the learning of new attacks while preserving knowledge from previous models.
-* Trained deepfake detection models using Veo3 and KlingAI datasets.
+* Trained deepfake detection models on Veo3 and KlingAI datasets.
 
 
 ### Data Scientist  
